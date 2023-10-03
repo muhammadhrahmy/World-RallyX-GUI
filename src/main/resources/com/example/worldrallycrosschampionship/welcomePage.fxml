@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.worldrallycrosschampionship.Controller">
+   <children>
+      <ImageView fitHeight="340.0" fitWidth="241.0" layoutX="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Welcome%20image.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" prefHeight="106.0" prefWidth="179.0" style="-fx-background-color: #27436B;" text="W" textFill="#00a8a8">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="100.0" prefHeight="106.0" prefWidth="179.0" style="-fx-background-color: #27436B;" text="R" textFill="#00e7fff2">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="200.0" prefHeight="106.0" prefWidth="179.0" style="-fx-background-color: #27436B;" text="C" textFill="#00a8a8">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="424.0" prefHeight="106.0" prefWidth="179.0" style="-fx-background-color: #27436B;" text="2" textFill="#00a8a8">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="424.0" layoutY="100.0" prefHeight="106.0" prefWidth="179.0" style="-fx-background-color: #27436B;" text="0" textFill="#00e7ff">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="424.0" layoutY="194.0" prefHeight="106.0" prefWidth="179.0" style="-fx-background-color: #27436B;" text="2" textFill="#00a8a8">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="424.0" layoutY="288.0" prefHeight="113.0" prefWidth="179.0" style="-fx-background-color: #27436B;" text="3" textFill="#00e7ff">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="199.0" prefHeight="54.0" prefWidth="202.0" text="WELCOME" textFill="#2f79d4">
+         <font>
+            <Font name="Microsoft New Tai Lue Bold" size="36.0" />
+         </font>
+      </Label>
+      <Pane layoutX="177.0" layoutY="339.0" prefHeight="63.0" prefWidth="247.0" style="-fx-background-color: #27436B;">
+         <children>
+            <Button layoutX="95.0" layoutY="19.0" mnemonicParsing="false" onAction="#onNextButtonClicked" prefHeight="25.0" prefWidth="58.0" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="Next" />
+         </children>
+      </Pane>
+      <Label alignment="CENTER" layoutY="297.0" prefHeight="96.0" prefWidth="179.0" style="-fx-background-color: #27436B;" text="C" textFill="#00e7ff">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

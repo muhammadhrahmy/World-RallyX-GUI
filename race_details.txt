@@ -1,0 +1,15 @@
+2023-09-20,Norway,Muhammadh,Rahmy,2,221
+2023-09-20,Norway,amna,rahmy,4,127
+2023-09-20,Norway,tom,latham,1,65
+2023-09-20,Norway,esandu,obda,5,35
+2023-09-20,Norway,arkhash,saravanakumar,3,102
+2023-09-16,Barcelona,Muhammadh,Rahmy,5,221
+2023-09-16,Barcelona,amna,rahmy,3,132
+2023-09-16,Barcelona,tom,latham,4,65
+2023-09-16,Barcelona,esandu,obda,1,45
+2023-09-16,Barcelona,arkhash,saravanakumar,2,109
+2023-01-08,Barcelona,Muhammadh,Rahmy,3,226
+2023-01-08,Barcelona,amna,rahmy,2,139
+2023-01-08,Barcelona,tom,latham,5,65
+2023-01-08,Barcelona,esandu,obda,1,55
+2023-01-08,Barcelona,arkhash,saravanakumar,4,109

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1d3557;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.worldrallycrosschampionship.Controller">
+   <children>
+      <Label layoutX="43.0" layoutY="126.0" style="-fx-background-color: #e63946; -fx-background-radius: 15;" text="World Rally Cross Championship" textFill="#faf5f5">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="addButton" layoutX="25.0" layoutY="187.0" mnemonicParsing="false" onAction="#onADDButtonClicked" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="ADD" textFill="#fcfafa" />
+      <Button fx:id="dddButton" layoutX="99.0" layoutY="187.0" mnemonicParsing="false" onAction="#onDDDButtonClicked" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="DDD" textFill="#fcfafa" />
+      <Button fx:id="uddButton" layoutX="176.0" layoutY="187.0" mnemonicParsing="false" onAction="#onUDDButtonClicked" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="UDD" textFill="#fcfafa" />
+      <Button fx:id="vctButton" layoutX="249.0" layoutY="187.0" mnemonicParsing="false" onAction="#onVCTButtonClicked" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="VCT" textFill="#fcfafa" />
+      <Button fx:id="srrButton" layoutX="321.0" layoutY="187.0" mnemonicParsing="false" onAction="#onSRRButtonClicked" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="SRR" textFill="#fcfafa" />
+      <Button fx:id="vrlButton" layoutX="389.0" layoutY="187.0" mnemonicParsing="false" onAction="#onVRLButtonClicked" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="VRL" textFill="#fcfafa" />
+      <Button fx:id="stfButton" layoutX="457.0" layoutY="187.0" mnemonicParsing="false" onAction="#onSTFButtonClicked" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="STF" textFill="#fcfafa" />
+      <Button fx:id="rffButton" layoutX="525.0" layoutY="187.0" mnemonicParsing="false" onAction="#onRFFButtonClicked" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="RFF" textFill="#fcfafa" />
+      <Label layoutX="24.0" layoutY="234.0" prefHeight="18.0" prefWidth="537.0" style="-fx-background-color: #27436B;" text="ADD - Adding driver details." textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="253.0" prefHeight="18.0" prefWidth="537.0" style="-fx-background-color: #27436B;" text="DDD - Deleting driver details." textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="272.0" prefHeight="18.0" prefWidth="537.0" style="-fx-background-color: #27436B;" text="UDD - Updating driver details." textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="291.0" prefHeight="18.0" prefWidth="537.0" style="-fx-background-color: #27436B;" text="VCT - Viewing the rally cross championship table." textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="310.0" prefHeight="18.0" prefWidth="537.0" style="-fx-background-color: #27436B;" text="SRR - Simulating a random race." textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="329.0" prefHeight="18.0" prefWidth="537.0" style="-fx-background-color: #27436B;" text="VRL - Viewing race table sorted according to the date." textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="348.0" prefHeight="18.0" prefWidth="537.0" style="-fx-background-color: #27436B;" text="STF - Save the current data to a text file." textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="367.0" prefHeight="18.0" prefWidth="537.0" style="-fx-background-color: #27436B;" text="RFF - Load the data from the saved text file." textFill="WHITE" />
+      <ImageView fx:id="logo" fitHeight="126.0" fitWidth="166.0" layoutX="210.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WRCCLogo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

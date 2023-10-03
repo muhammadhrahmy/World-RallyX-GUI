@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1d3557;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.worldrallycrosschampionship.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="163.0" prefHeight="54.0" prefWidth="399.0" text="Updating Driver Details" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Pane prefHeight="400.0" prefWidth="126.0" style="-fx-background-color: #27436B;">
+         <children>
+            <Label alignment="CENTER" layoutX="11.0" layoutY="54.0" prefHeight="27.0" prefWidth="101.0" style="-fx-background-color: #00A8A8; -fx-background-radius: 15;" text="First Name:" textFill="#f0f2f4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="11.0" layoutY="101.0" prefHeight="27.0" prefWidth="101.0" style="-fx-background-color: #00A8A8; -fx-background-radius: 15;" text="Last Name:" textFill="#f0f2f4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="11.0" layoutY="195.0" prefHeight="27.0" prefWidth="101.0" style="-fx-background-color: #00A8A8; -fx-background-radius: 15;" text="Car:" textFill="#f0f2f4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="11.0" layoutY="241.0" prefHeight="27.0" prefWidth="101.0" style="-fx-background-color: #00A8A8; -fx-background-radius: 15;" text="Team:" textFill="#f0f2f4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="11.0" layoutY="289.0" prefHeight="27.0" prefWidth="101.0" style="-fx-background-color: #00A8A8; -fx-background-radius: 15;" text="Points:" textFill="#f0f2f4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="11.0" layoutY="149.0" prefHeight="27.0" prefWidth="101.0" style="-fx-background-color: #00A8A8; -fx-background-radius: 15;" text="Age:" textAlignment="RIGHT" textFill="#f0f2f4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="40.0" fitWidth="65.0" layoutX="29.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WRCCLogo.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <TextField fx:id="newFirstNameText" layoutX="131.0" layoutY="55.0" prefHeight="26.0" prefWidth="435.0" stylesheets="@textField.css" />
+      <TextField fx:id="newLastNameText" layoutX="131.0" layoutY="100.0" prefHeight="26.0" prefWidth="435.0" stylesheets="@textField.css" />
+      <TextField fx:id="newAgeText" layoutX="131.0" layoutY="150.0" prefHeight="26.0" prefWidth="435.0" stylesheets="@textField.css" />
+      <TextField fx:id="newCarText" layoutX="131.0" layoutY="196.0" prefHeight="26.0" prefWidth="435.0" stylesheets="@textField.css" />
+      <TextField fx:id="newTeamText" layoutX="131.0" layoutY="243.0" prefHeight="26.0" prefWidth="435.0" stylesheets="@textField.css" />
+      <TextField fx:id="newPointsText" layoutX="131.0" layoutY="289.0" prefHeight="26.0" prefWidth="435.0" stylesheets="@textField.css" />
+      <Label fx:id="newFirstNameErrorLabel" layoutX="131.0" layoutY="81.0" prefHeight="18.0" prefWidth="435.0" textFill="#f20404" />
+      <Label fx:id="newLastNameErrorLabel" layoutX="131.0" layoutY="126.0" prefHeight="18.0" prefWidth="435.0" textFill="#f20404" />
+      <Label fx:id="newAgeErrorLabel" layoutX="131.0" layoutY="177.0" prefHeight="18.0" prefWidth="435.0" textFill="#f20404" />
+      <Label fx:id="newCarErrorLabel" layoutX="131.0" layoutY="224.0" prefHeight="18.0" prefWidth="435.0" textFill="#f20404" />
+      <Label fx:id="newTeamErrorLabel" layoutX="131.0" layoutY="270.0" prefHeight="18.0" prefWidth="435.0" textFill="#f20404" />
+      <Label fx:id="newPointsErrorLabel" layoutX="131.0" layoutY="317.0" prefHeight="18.0" prefWidth="435.0" textFill="#f20404" />
+      <Label fx:id="uddConfirmationLabel" alignment="CENTER" layoutX="159.0" layoutY="335.0" prefHeight="26.0" prefWidth="379.0" textFill="#f20404">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="newDetailsSubmitButton" layoutX="316.0" layoutY="361.0" mnemonicParsing="false" onAction="#onNewDetailsSubmitButtonClicked" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="Update" textFill="#efeaea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

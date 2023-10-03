@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1d3557;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.worldrallycrosschampionship.Controller">
+   <children>
+      <TableView fx:id="raceTable" layoutX="5.0" layoutY="86.0" prefHeight="310.0" prefWidth="590.0" stylesheets="@tableView.css">
+         <columns>
+            <TableColumn fx:id="raceDateColumn" prefWidth="100.0" text="Date" />
+            <TableColumn fx:id="raceLocationColumn" prefWidth="100.0" text="Location" />
+            <TableColumn fx:id="raceFirstNameColumn" prefWidth="100.0" text="First Name" />
+            <TableColumn fx:id="raceLastNameColumn" prefWidth="100.0" text="Last Name" />
+            <TableColumn fx:id="racePositionColumn" prefWidth="100.0" text="Position" />
+            <TableColumn fx:id="racePointsColumn" prefWidth="100.0" text="Points" />
+         </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="149.0" layoutY="6.0" prefHeight="26.0" prefWidth="302.0" text="Race Details Table" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="vrlLoadButton" layoutX="231.0" layoutY="57.0" mnemonicParsing="false" onAction="#onVRLLoadButtonClicked" style="-fx-background-color: #e63946; -fx-background-radius: 10;" text="Load Race Detail Table" textFill="WHITE" />
+      <ImageView fitHeight="40.0" fitWidth="65.0" layoutX="53.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WRCCLogo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="65.0" layoutX="480.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WRCCLogo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
